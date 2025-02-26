@@ -1,0 +1,13 @@
+# Python
+__pycache__
+venv
+
+# Logs
+*.log
+
+# IDE
+.idea
+.vscode
+
+# wunderkind-project
+#db - закомментировано, так как в тз сказано заполнить тестовыми данными

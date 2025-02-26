@@ -1,0 +1,6 @@
+[tool.ruff]
+select = ["ALL"]
+ignore = [
+    # Кирилица
+    "RUF001", "RUF002", "RUF003",
+]
