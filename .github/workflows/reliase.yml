@@ -30,13 +30,13 @@ jobs:
 
       - name: Build EXE
         run: |
-          pyinstaller --onedir --name MyApp main.py
+          pyinstaller --onedir --name wunderkind-project main.py
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v4
         with:
           name: exe-file
-          path: dist/MyApp/*.exe
+          path: dist/wunderkind-project/*.exe
 
   release:
     needs: build
