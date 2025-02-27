@@ -25,6 +25,12 @@ def edit_payment_page(page: ft.Page) -> None:
 
 def payment_page(page: ft.Page) -> ft.SafeArea:
     """Главное меню."""
+    # Кнопка добавления нового платежа
+    plus_button = ft.FloatingActionButton(
+        icon=ft.Icons.ADD,
+        on_click=lambda e: plus_button_on_click(e, page),
+    )
+
     # Возвращаем страницу
     return ft.SafeArea(
         ft.Column(
@@ -32,7 +38,17 @@ def payment_page(page: ft.Page) -> ft.SafeArea:
             alignment=ft.MainAxisAlignment.CENTER,
             width=page.width,
             controls=[
-                ft.Text(value="Страница платежей."),
+                ft.Row(
+                    controls=[
+                        ft.TextField(
+                            label="TODO: Поиск по платежам.",
+                            expand=True,
+                            # TODO(@iamlostshe): on_blur=lambda e: search_puzzles(e, page),
+                        ),
+                        plus_button,
+                    ],
+                ),
+                ft.Text(value="У вас пока нет ни одного платежа."),
             ],
         ),
     )

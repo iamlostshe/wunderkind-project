@@ -10,7 +10,7 @@ from utils import db
 
 
 def edit_schedule_page(page: ft.Page) -> None:
-    """Страница добавления новых пазлов."""
+    """Страница добавления изменения расписания."""
     # Инициализируем словарь для хранения информации о учащихся
     data = {
         "age": None,
@@ -18,6 +18,25 @@ def edit_schedule_page(page: ft.Page) -> None:
         "description": None,
         "teacher": None,
     }
+
+    def choice_of_teacher_on_click(e: ft.core.control_event.ControlEvent) -> None:
+        """Выбор учителя."""
+        # Получаем текст из поля
+        text = e.control.value
+
+        # Выводим лог
+        logger.debug("Преподаватель: {}", text)
+
+        # Запишем изменения в data
+        data["teacher"] = text
+
+    # Создаём объект для выбора учителя
+    choice_of_teacher = ft.Dropdown(
+        label="Выбор преподавателя",
+        width=page.width,
+        on_change=choice_of_teacher_on_click,
+        options=[ft.dropdown.Option(teacher) for teacher in db.Teachers().get()],
+    )
 
     # Функция выбора возраста
     def choice_of_age_on_click(e: ft.core.control_event.ControlEvent) -> None:
@@ -30,41 +49,6 @@ def edit_schedule_page(page: ft.Page) -> None:
 
         # Запишем изменения в data
         data["age"] = text
-
-
-    def course_teacher_on_blur(e: ft.core.control_event.ControlEvent) -> None:
-        """Описание кружка."""
-        # Убирем все ошибки
-        e.control.error_text = None
-
-        # Получем текст из поля
-        text = e.control.value
-
-        # Выводим лог
-        logger.debug("Описание кружка: {}", text)
-
-        # Проверяем заполнено ли поле
-        if text:
-            if len(text.split()) == 3:  # noqa: PLR2004
-                data["teacher"] = text
-            else:
-                e.control.error_text = "ФИО преподавателя должно содержать 3 слова."
-
-        else:
-            e.control.error_text = "Это поле не должно быть пустым."
-
-    result = []
-    t = db.Teachers()
-    for teacher in t.get():
-        result.append(ft.dropdown.Option(teacher))  # noqa: PERF401
-
-    # Создаём обект для хранения учителей
-    choice_of_age = ft.Dropdown(
-        label="Выбор возрастного интервала",
-        width=page.width,
-        on_change=choice_of_age_on_click,
-        options=result,
-    )
 
     # Создаём обект для хранения возрастных интервалов
     choice_of_age = ft.Dropdown(
@@ -95,6 +79,7 @@ def edit_schedule_page(page: ft.Page) -> None:
         """Наименование кружка."""
         # Убирем все ошибки
         e.control.error_text = None
+        page.update()
 
         # Получаем текст из поля
         text = e.control.value
@@ -107,11 +92,13 @@ def edit_schedule_page(page: ft.Page) -> None:
             data["name"] = text
         else:
             e.control.error_text = "Это поле не должно быть пустым"
+            page.update()
 
     def course_description_on_blur(e: ft.core.control_event.ControlEvent) -> None:
         """Описание кружка."""
         # Убирем все ошибки
         e.control.error_text = None
+        page.update()
 
         # Получем текст из поля
         text = e.control.value
@@ -124,18 +111,19 @@ def edit_schedule_page(page: ft.Page) -> None:
             data["description"] = text
         else:
             e.control.error_text = "Это поле не должно быть пустым"
+            page.update()
 
     def submit_form(e: ft.core.control_event.ControlEvent, page: ft.Page) -> None:  # noqa: ARG001
         """Сохраняет результат формы."""
         # Получаем непустые строки
         len_data = 0
 
-        for i in data.items():
-            if i:
+        for i in data.values():
+            if i not in ["", None]:
                 len_data += 1
 
-        # Если информации достаточно
-        if len_data >= 4:
+        # Еслиlen_data += 1 информации достаточно
+        if len_data == 4:
             # Записываем её в JSON бд
             s = db.Courses()
             s.add(data)
@@ -184,10 +172,7 @@ def edit_schedule_page(page: ft.Page) -> None:
                     label="Описание кружка",
                     on_blur=course_description_on_blur,
                 ),
-                ft.TextField(
-                    label="Преподаватель",
-                    on_blur=course_teacher_on_blur,
-                ),
+                choice_of_teacher,
                 ft.Row(controls=[submit], alignment=ft.MainAxisAlignment.CENTER),
             ],
         ),
@@ -195,7 +180,7 @@ def edit_schedule_page(page: ft.Page) -> None:
 
 
 def schedule_page(page: ft.Page) -> ft.SafeArea:
-    """Главное меню."""
+    """Страница раписания."""
     def plus_button_on_click(
         e: ft.core.control_event.ControlEvent,  # noqa: ARG001
         page: ft.Page,
@@ -222,7 +207,7 @@ def schedule_page(page: ft.Page) -> ft.SafeArea:
         if not items:
             return ft.Row(
                 controls=[
-                    ft.Text("У Вас пока нет ни одного шаблона пазла("),
+                    ft.Text("У вас пока нет расписания."),
                 ],
             )
         # Инициализируем пустой список для названий колнок
