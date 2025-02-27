@@ -1,0 +1,1872 @@
+('/home/ivan/Рабочий '
+ 'стол/olimpiads/wunderkind-project/build/wunderkind-project/PYZ-00.pyz',
+ [('__future__', '/usr/lib/python3.13/__future__.py', 'PYMODULE'),
+  ('_aix_support', '/usr/lib/python3.13/_aix_support.py', 'PYMODULE'),
+  ('_colorize', '/usr/lib/python3.13/_colorize.py', 'PYMODULE'),
+  ('_compat_pickle', '/usr/lib/python3.13/_compat_pickle.py', 'PYMODULE'),
+  ('_compression', '/usr/lib/python3.13/_compression.py', 'PYMODULE'),
+  ('_ios_support', '/usr/lib/python3.13/_ios_support.py', 'PYMODULE'),
+  ('_opcode_metadata', '/usr/lib/python3.13/_opcode_metadata.py', 'PYMODULE'),
+  ('_py_abc', '/usr/lib/python3.13/_py_abc.py', 'PYMODULE'),
+  ('_pydatetime', '/usr/lib/python3.13/_pydatetime.py', 'PYMODULE'),
+  ('_pydecimal', '/usr/lib/python3.13/_pydecimal.py', 'PYMODULE'),
+  ('_strptime', '/usr/lib/python3.13/_strptime.py', 'PYMODULE'),
+  ('_sysconfigdata__linux_x86_64-linux-gnu',
+   '/usr/lib/python3.13/_sysconfigdata__linux_x86_64-linux-gnu.py',
+   'PYMODULE'),
+  ('_threading_local', '/usr/lib/python3.13/_threading_local.py', 'PYMODULE'),
+  ('anyio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/__init__.py',
+   'PYMODULE'),
+  ('anyio._backends',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_backends/__init__.py',
+   'PYMODULE'),
+  ('anyio._backends._asyncio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py',
+   'PYMODULE'),
+  ('anyio._backends._trio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_backends/_trio.py',
+   'PYMODULE'),
+  ('anyio._core',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/__init__.py',
+   'PYMODULE'),
+  ('anyio._core._asyncio_selector_thread',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py',
+   'PYMODULE'),
+  ('anyio._core._eventloop',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_eventloop.py',
+   'PYMODULE'),
+  ('anyio._core._exceptions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_exceptions.py',
+   'PYMODULE'),
+  ('anyio._core._fileio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_fileio.py',
+   'PYMODULE'),
+  ('anyio._core._resources',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_resources.py',
+   'PYMODULE'),
+  ('anyio._core._signals',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_signals.py',
+   'PYMODULE'),
+  ('anyio._core._sockets',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_sockets.py',
+   'PYMODULE'),
+  ('anyio._core._streams',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_streams.py',
+   'PYMODULE'),
+  ('anyio._core._subprocesses',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_subprocesses.py',
+   'PYMODULE'),
+  ('anyio._core._synchronization',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_synchronization.py',
+   'PYMODULE'),
+  ('anyio._core._tasks',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_tasks.py',
+   'PYMODULE'),
+  ('anyio._core._testing',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_testing.py',
+   'PYMODULE'),
+  ('anyio._core._typedattr',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/_core/_typedattr.py',
+   'PYMODULE'),
+  ('anyio.abc',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/__init__.py',
+   'PYMODULE'),
+  ('anyio.abc._eventloop',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_eventloop.py',
+   'PYMODULE'),
+  ('anyio.abc._resources',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_resources.py',
+   'PYMODULE'),
+  ('anyio.abc._sockets',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_sockets.py',
+   'PYMODULE'),
+  ('anyio.abc._streams',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_streams.py',
+   'PYMODULE'),
+  ('anyio.abc._subprocesses',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_subprocesses.py',
+   'PYMODULE'),
+  ('anyio.abc._tasks',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_tasks.py',
+   'PYMODULE'),
+  ('anyio.abc._testing',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/abc/_testing.py',
+   'PYMODULE'),
+  ('anyio.from_thread',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/from_thread.py',
+   'PYMODULE'),
+  ('anyio.lowlevel',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/lowlevel.py',
+   'PYMODULE'),
+  ('anyio.streams',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/streams/__init__.py',
+   'PYMODULE'),
+  ('anyio.streams.memory',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/streams/memory.py',
+   'PYMODULE'),
+  ('anyio.streams.stapled',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/streams/stapled.py',
+   'PYMODULE'),
+  ('anyio.streams.tls',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/streams/tls.py',
+   'PYMODULE'),
+  ('anyio.to_thread',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/anyio/to_thread.py',
+   'PYMODULE'),
+  ('argparse', '/usr/lib/python3.13/argparse.py', 'PYMODULE'),
+  ('ast', '/usr/lib/python3.13/ast.py', 'PYMODULE'),
+  ('asyncio', '/usr/lib/python3.13/asyncio/__init__.py', 'PYMODULE'),
+  ('asyncio.base_events',
+   '/usr/lib/python3.13/asyncio/base_events.py',
+   'PYMODULE'),
+  ('asyncio.base_futures',
+   '/usr/lib/python3.13/asyncio/base_futures.py',
+   'PYMODULE'),
+  ('asyncio.base_subprocess',
+   '/usr/lib/python3.13/asyncio/base_subprocess.py',
+   'PYMODULE'),
+  ('asyncio.base_tasks',
+   '/usr/lib/python3.13/asyncio/base_tasks.py',
+   'PYMODULE'),
+  ('asyncio.constants', '/usr/lib/python3.13/asyncio/constants.py', 'PYMODULE'),
+  ('asyncio.coroutines',
+   '/usr/lib/python3.13/asyncio/coroutines.py',
+   'PYMODULE'),
+  ('asyncio.events', '/usr/lib/python3.13/asyncio/events.py', 'PYMODULE'),
+  ('asyncio.exceptions',
+   '/usr/lib/python3.13/asyncio/exceptions.py',
+   'PYMODULE'),
+  ('asyncio.format_helpers',
+   '/usr/lib/python3.13/asyncio/format_helpers.py',
+   'PYMODULE'),
+  ('asyncio.futures', '/usr/lib/python3.13/asyncio/futures.py', 'PYMODULE'),
+  ('asyncio.locks', '/usr/lib/python3.13/asyncio/locks.py', 'PYMODULE'),
+  ('asyncio.log', '/usr/lib/python3.13/asyncio/log.py', 'PYMODULE'),
+  ('asyncio.mixins', '/usr/lib/python3.13/asyncio/mixins.py', 'PYMODULE'),
+  ('asyncio.proactor_events',
+   '/usr/lib/python3.13/asyncio/proactor_events.py',
+   'PYMODULE'),
+  ('asyncio.protocols', '/usr/lib/python3.13/asyncio/protocols.py', 'PYMODULE'),
+  ('asyncio.queues', '/usr/lib/python3.13/asyncio/queues.py', 'PYMODULE'),
+  ('asyncio.runners', '/usr/lib/python3.13/asyncio/runners.py', 'PYMODULE'),
+  ('asyncio.selector_events',
+   '/usr/lib/python3.13/asyncio/selector_events.py',
+   'PYMODULE'),
+  ('asyncio.sslproto', '/usr/lib/python3.13/asyncio/sslproto.py', 'PYMODULE'),
+  ('asyncio.staggered', '/usr/lib/python3.13/asyncio/staggered.py', 'PYMODULE'),
+  ('asyncio.streams', '/usr/lib/python3.13/asyncio/streams.py', 'PYMODULE'),
+  ('asyncio.subprocess',
+   '/usr/lib/python3.13/asyncio/subprocess.py',
+   'PYMODULE'),
+  ('asyncio.taskgroups',
+   '/usr/lib/python3.13/asyncio/taskgroups.py',
+   'PYMODULE'),
+  ('asyncio.tasks', '/usr/lib/python3.13/asyncio/tasks.py', 'PYMODULE'),
+  ('asyncio.threads', '/usr/lib/python3.13/asyncio/threads.py', 'PYMODULE'),
+  ('asyncio.timeouts', '/usr/lib/python3.13/asyncio/timeouts.py', 'PYMODULE'),
+  ('asyncio.transports',
+   '/usr/lib/python3.13/asyncio/transports.py',
+   'PYMODULE'),
+  ('asyncio.trsock', '/usr/lib/python3.13/asyncio/trsock.py', 'PYMODULE'),
+  ('asyncio.unix_events',
+   '/usr/lib/python3.13/asyncio/unix_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_events',
+   '/usr/lib/python3.13/asyncio/windows_events.py',
+   'PYMODULE'),
+  ('asyncio.windows_utils',
+   '/usr/lib/python3.13/asyncio/windows_utils.py',
+   'PYMODULE'),
+  ('base64', '/usr/lib/python3.13/base64.py', 'PYMODULE'),
+  ('bisect', '/usr/lib/python3.13/bisect.py', 'PYMODULE'),
+  ('bz2', '/usr/lib/python3.13/bz2.py', 'PYMODULE'),
+  ('calendar', '/usr/lib/python3.13/calendar.py', 'PYMODULE'),
+  ('certifi',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/certifi/__init__.py',
+   'PYMODULE'),
+  ('certifi.core',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/certifi/core.py',
+   'PYMODULE'),
+  ('concurrent', '/usr/lib/python3.13/concurrent/__init__.py', 'PYMODULE'),
+  ('concurrent.futures',
+   '/usr/lib/python3.13/concurrent/futures/__init__.py',
+   'PYMODULE'),
+  ('concurrent.futures._base',
+   '/usr/lib/python3.13/concurrent/futures/_base.py',
+   'PYMODULE'),
+  ('concurrent.futures.process',
+   '/usr/lib/python3.13/concurrent/futures/process.py',
+   'PYMODULE'),
+  ('concurrent.futures.thread',
+   '/usr/lib/python3.13/concurrent/futures/thread.py',
+   'PYMODULE'),
+  ('contextlib', '/usr/lib/python3.13/contextlib.py', 'PYMODULE'),
+  ('contextvars', '/usr/lib/python3.13/contextvars.py', 'PYMODULE'),
+  ('copy', '/usr/lib/python3.13/copy.py', 'PYMODULE'),
+  ('csv', '/usr/lib/python3.13/csv.py', 'PYMODULE'),
+  ('ctypes', '/usr/lib/python3.13/ctypes/__init__.py', 'PYMODULE'),
+  ('ctypes._aix', '/usr/lib/python3.13/ctypes/_aix.py', 'PYMODULE'),
+  ('ctypes._endian', '/usr/lib/python3.13/ctypes/_endian.py', 'PYMODULE'),
+  ('ctypes.macholib',
+   '/usr/lib/python3.13/ctypes/macholib/__init__.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dyld',
+   '/usr/lib/python3.13/ctypes/macholib/dyld.py',
+   'PYMODULE'),
+  ('ctypes.macholib.dylib',
+   '/usr/lib/python3.13/ctypes/macholib/dylib.py',
+   'PYMODULE'),
+  ('ctypes.macholib.framework',
+   '/usr/lib/python3.13/ctypes/macholib/framework.py',
+   'PYMODULE'),
+  ('ctypes.util', '/usr/lib/python3.13/ctypes/util.py', 'PYMODULE'),
+  ('dataclasses', '/usr/lib/python3.13/dataclasses.py', 'PYMODULE'),
+  ('datetime', '/usr/lib/python3.13/datetime.py', 'PYMODULE'),
+  ('decimal', '/usr/lib/python3.13/decimal.py', 'PYMODULE'),
+  ('difflib', '/usr/lib/python3.13/difflib.py', 'PYMODULE'),
+  ('dis', '/usr/lib/python3.13/dis.py', 'PYMODULE'),
+  ('dotenv',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/dotenv/__init__.py',
+   'PYMODULE'),
+  ('dotenv.ipython',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/dotenv/ipython.py',
+   'PYMODULE'),
+  ('dotenv.main',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/dotenv/main.py',
+   'PYMODULE'),
+  ('dotenv.parser',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/dotenv/parser.py',
+   'PYMODULE'),
+  ('dotenv.variables',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/dotenv/variables.py',
+   'PYMODULE'),
+  ('email', '/usr/lib/python3.13/email/__init__.py', 'PYMODULE'),
+  ('email._encoded_words',
+   '/usr/lib/python3.13/email/_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   '/usr/lib/python3.13/email/_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr', '/usr/lib/python3.13/email/_parseaddr.py', 'PYMODULE'),
+  ('email._policybase', '/usr/lib/python3.13/email/_policybase.py', 'PYMODULE'),
+  ('email.base64mime', '/usr/lib/python3.13/email/base64mime.py', 'PYMODULE'),
+  ('email.charset', '/usr/lib/python3.13/email/charset.py', 'PYMODULE'),
+  ('email.contentmanager',
+   '/usr/lib/python3.13/email/contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders', '/usr/lib/python3.13/email/encoders.py', 'PYMODULE'),
+  ('email.errors', '/usr/lib/python3.13/email/errors.py', 'PYMODULE'),
+  ('email.feedparser', '/usr/lib/python3.13/email/feedparser.py', 'PYMODULE'),
+  ('email.generator', '/usr/lib/python3.13/email/generator.py', 'PYMODULE'),
+  ('email.header', '/usr/lib/python3.13/email/header.py', 'PYMODULE'),
+  ('email.headerregistry',
+   '/usr/lib/python3.13/email/headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators', '/usr/lib/python3.13/email/iterators.py', 'PYMODULE'),
+  ('email.message', '/usr/lib/python3.13/email/message.py', 'PYMODULE'),
+  ('email.parser', '/usr/lib/python3.13/email/parser.py', 'PYMODULE'),
+  ('email.policy', '/usr/lib/python3.13/email/policy.py', 'PYMODULE'),
+  ('email.quoprimime', '/usr/lib/python3.13/email/quoprimime.py', 'PYMODULE'),
+  ('email.utils', '/usr/lib/python3.13/email/utils.py', 'PYMODULE'),
+  ('flet',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/__init__.py',
+   'PYMODULE'),
+  ('flet.app',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/app.py',
+   'PYMODULE'),
+  ('flet.auth',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/auth/__init__.py',
+   'PYMODULE'),
+  ('flet.auth.authorization',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/auth/authorization.py',
+   'PYMODULE'),
+  ('flet.auth.group',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/auth/group.py',
+   'PYMODULE'),
+  ('flet.auth.oauth_provider',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/auth/oauth_provider.py',
+   'PYMODULE'),
+  ('flet.auth.oauth_token',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/auth/oauth_token.py',
+   'PYMODULE'),
+  ('flet.auth.user',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/auth/user.py',
+   'PYMODULE'),
+  ('flet.core', '-', 'PYMODULE'),
+  ('flet.core.adaptive_control',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/adaptive_control.py',
+   'PYMODULE'),
+  ('flet.core.ads', '-', 'PYMODULE'),
+  ('flet.core.alert_dialog',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/alert_dialog.py',
+   'PYMODULE'),
+  ('flet.core.alignment',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/alignment.py',
+   'PYMODULE'),
+  ('flet.core.animated_switcher',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/animated_switcher.py',
+   'PYMODULE'),
+  ('flet.core.animation',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/animation.py',
+   'PYMODULE'),
+  ('flet.core.app_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/app_bar.py',
+   'PYMODULE'),
+  ('flet.core.audio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/audio.py',
+   'PYMODULE'),
+  ('flet.core.audio_recorder',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/audio_recorder.py',
+   'PYMODULE'),
+  ('flet.core.auto_complete',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/auto_complete.py',
+   'PYMODULE'),
+  ('flet.core.autofill_group',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/autofill_group.py',
+   'PYMODULE'),
+  ('flet.core.badge',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/badge.py',
+   'PYMODULE'),
+  ('flet.core.banner',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/banner.py',
+   'PYMODULE'),
+  ('flet.core.blur',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/blur.py',
+   'PYMODULE'),
+  ('flet.core.border',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/border.py',
+   'PYMODULE'),
+  ('flet.core.border_radius',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/border_radius.py',
+   'PYMODULE'),
+  ('flet.core.bottom_app_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/bottom_app_bar.py',
+   'PYMODULE'),
+  ('flet.core.bottom_sheet',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/bottom_sheet.py',
+   'PYMODULE'),
+  ('flet.core.box',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/box.py',
+   'PYMODULE'),
+  ('flet.core.button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/button.py',
+   'PYMODULE'),
+  ('flet.core.buttons',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/buttons.py',
+   'PYMODULE'),
+  ('flet.core.card',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/card.py',
+   'PYMODULE'),
+  ('flet.core.charts', '-', 'PYMODULE'),
+  ('flet.core.charts.bar_chart',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/bar_chart.py',
+   'PYMODULE'),
+  ('flet.core.charts.bar_chart_group',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/bar_chart_group.py',
+   'PYMODULE'),
+  ('flet.core.charts.bar_chart_rod',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/bar_chart_rod.py',
+   'PYMODULE'),
+  ('flet.core.charts.bar_chart_rod_stack_item',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/bar_chart_rod_stack_item.py',
+   'PYMODULE'),
+  ('flet.core.charts.chart_axis',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/chart_axis.py',
+   'PYMODULE'),
+  ('flet.core.charts.chart_axis_label',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/chart_axis_label.py',
+   'PYMODULE'),
+  ('flet.core.charts.chart_grid_lines',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/chart_grid_lines.py',
+   'PYMODULE'),
+  ('flet.core.charts.chart_point_line',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/chart_point_line.py',
+   'PYMODULE'),
+  ('flet.core.charts.chart_point_shape',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/chart_point_shape.py',
+   'PYMODULE'),
+  ('flet.core.charts.line_chart',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/line_chart.py',
+   'PYMODULE'),
+  ('flet.core.charts.line_chart_data',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/line_chart_data.py',
+   'PYMODULE'),
+  ('flet.core.charts.line_chart_data_point',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/line_chart_data_point.py',
+   'PYMODULE'),
+  ('flet.core.charts.pie_chart',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/pie_chart.py',
+   'PYMODULE'),
+  ('flet.core.charts.pie_chart_section',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/charts/pie_chart_section.py',
+   'PYMODULE'),
+  ('flet.core.checkbox',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/checkbox.py',
+   'PYMODULE'),
+  ('flet.core.chip',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/chip.py',
+   'PYMODULE'),
+  ('flet.core.circle_avatar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/circle_avatar.py',
+   'PYMODULE'),
+  ('flet.core.client_storage',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/client_storage.py',
+   'PYMODULE'),
+  ('flet.core.colors',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/colors.py',
+   'PYMODULE'),
+  ('flet.core.column',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/column.py',
+   'PYMODULE'),
+  ('flet.core.connection',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/connection.py',
+   'PYMODULE'),
+  ('flet.core.constrained_control',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/constrained_control.py',
+   'PYMODULE'),
+  ('flet.core.container',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/container.py',
+   'PYMODULE'),
+  ('flet.core.control',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/control.py',
+   'PYMODULE'),
+  ('flet.core.control_event',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/control_event.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_action_sheet',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_action_sheet.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_action_sheet_action',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_action_sheet_action.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_activity_indicator',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_activity_indicator.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_alert_dialog',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_alert_dialog.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_app_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_app_bar.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_bottom_sheet',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_bottom_sheet.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_button.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_checkbox',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_checkbox.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_colors',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_colors.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_context_menu',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_context_menu.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_context_menu_action',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_context_menu_action.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_date_picker',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_date_picker.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_dialog_action',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_dialog_action.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_filled_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_filled_button.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_icons',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_icons.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_list_tile',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_list_tile.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_navigation_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_navigation_bar.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_picker',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_picker.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_radio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_radio.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_segmented_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_segmented_button.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_slider',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_slider.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_sliding_segmented_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_sliding_segmented_button.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_switch',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_switch.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_textfield',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_textfield.py',
+   'PYMODULE'),
+  ('flet.core.cupertino_timer_picker',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/cupertino_timer_picker.py',
+   'PYMODULE'),
+  ('flet.core.datatable',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/datatable.py',
+   'PYMODULE'),
+  ('flet.core.date_picker',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/date_picker.py',
+   'PYMODULE'),
+  ('flet.core.dismissible',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/dismissible.py',
+   'PYMODULE'),
+  ('flet.core.divider',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/divider.py',
+   'PYMODULE'),
+  ('flet.core.drag_target',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/drag_target.py',
+   'PYMODULE'),
+  ('flet.core.draggable',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/draggable.py',
+   'PYMODULE'),
+  ('flet.core.dropdown',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/dropdown.py',
+   'PYMODULE'),
+  ('flet.core.dropdownm2',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/dropdownm2.py',
+   'PYMODULE'),
+  ('flet.core.elevated_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/elevated_button.py',
+   'PYMODULE'),
+  ('flet.core.embed_json_encoder',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/embed_json_encoder.py',
+   'PYMODULE'),
+  ('flet.core.event',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/event.py',
+   'PYMODULE'),
+  ('flet.core.event_handler',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/event_handler.py',
+   'PYMODULE'),
+  ('flet.core.exceptions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/exceptions.py',
+   'PYMODULE'),
+  ('flet.core.expansion_panel',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/expansion_panel.py',
+   'PYMODULE'),
+  ('flet.core.expansion_tile',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/expansion_tile.py',
+   'PYMODULE'),
+  ('flet.core.file_picker',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/file_picker.py',
+   'PYMODULE'),
+  ('flet.core.filled_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/filled_button.py',
+   'PYMODULE'),
+  ('flet.core.filled_tonal_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/filled_tonal_button.py',
+   'PYMODULE'),
+  ('flet.core.flashlight',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/flashlight.py',
+   'PYMODULE'),
+  ('flet.core.flet_app',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/flet_app.py',
+   'PYMODULE'),
+  ('flet.core.floating_action_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/floating_action_button.py',
+   'PYMODULE'),
+  ('flet.core.form_field_control',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/form_field_control.py',
+   'PYMODULE'),
+  ('flet.core.geolocator',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/geolocator.py',
+   'PYMODULE'),
+  ('flet.core.gesture_detector',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/gesture_detector.py',
+   'PYMODULE'),
+  ('flet.core.gradients',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/gradients.py',
+   'PYMODULE'),
+  ('flet.core.grid_view',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/grid_view.py',
+   'PYMODULE'),
+  ('flet.core.haptic_feedback',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/haptic_feedback.py',
+   'PYMODULE'),
+  ('flet.core.icon',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/icon.py',
+   'PYMODULE'),
+  ('flet.core.icon_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/icon_button.py',
+   'PYMODULE'),
+  ('flet.core.icons',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/icons.py',
+   'PYMODULE'),
+  ('flet.core.image',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/image.py',
+   'PYMODULE'),
+  ('flet.core.inline_span',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/inline_span.py',
+   'PYMODULE'),
+  ('flet.core.interactive_viewer',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/interactive_viewer.py',
+   'PYMODULE'),
+  ('flet.core.list_tile',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/list_tile.py',
+   'PYMODULE'),
+  ('flet.core.list_view',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/list_view.py',
+   'PYMODULE'),
+  ('flet.core.local_connection',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/local_connection.py',
+   'PYMODULE'),
+  ('flet.core.locks',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/locks.py',
+   'PYMODULE'),
+  ('flet.core.lottie',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/lottie.py',
+   'PYMODULE'),
+  ('flet.core.margin',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/margin.py',
+   'PYMODULE'),
+  ('flet.core.markdown',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/markdown.py',
+   'PYMODULE'),
+  ('flet.core.menu_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/menu_bar.py',
+   'PYMODULE'),
+  ('flet.core.menu_item_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/menu_item_button.py',
+   'PYMODULE'),
+  ('flet.core.navigation_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/navigation_bar.py',
+   'PYMODULE'),
+  ('flet.core.navigation_drawer',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/navigation_drawer.py',
+   'PYMODULE'),
+  ('flet.core.navigation_rail',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/navigation_rail.py',
+   'PYMODULE'),
+  ('flet.core.outlined_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/outlined_button.py',
+   'PYMODULE'),
+  ('flet.core.padding',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/padding.py',
+   'PYMODULE'),
+  ('flet.core.page',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/page.py',
+   'PYMODULE'),
+  ('flet.core.pagelet',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/pagelet.py',
+   'PYMODULE'),
+  ('flet.core.painting',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/painting.py',
+   'PYMODULE'),
+  ('flet.core.permission_handler',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/permission_handler.py',
+   'PYMODULE'),
+  ('flet.core.placeholder',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/placeholder.py',
+   'PYMODULE'),
+  ('flet.core.popup_menu_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/popup_menu_button.py',
+   'PYMODULE'),
+  ('flet.core.progress_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/progress_bar.py',
+   'PYMODULE'),
+  ('flet.core.progress_ring',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/progress_ring.py',
+   'PYMODULE'),
+  ('flet.core.protocol',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/protocol.py',
+   'PYMODULE'),
+  ('flet.core.pubsub', '-', 'PYMODULE'),
+  ('flet.core.pubsub.pubsub_client',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/pubsub/pubsub_client.py',
+   'PYMODULE'),
+  ('flet.core.pubsub.pubsub_hub',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/pubsub/pubsub_hub.py',
+   'PYMODULE'),
+  ('flet.core.querystring',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/querystring.py',
+   'PYMODULE'),
+  ('flet.core.radio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/radio.py',
+   'PYMODULE'),
+  ('flet.core.radio_group',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/radio_group.py',
+   'PYMODULE'),
+  ('flet.core.range_slider',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/range_slider.py',
+   'PYMODULE'),
+  ('flet.core.ref',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/ref.py',
+   'PYMODULE'),
+  ('flet.core.reorderable_list_view',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/reorderable_list_view.py',
+   'PYMODULE'),
+  ('flet.core.responsive_row',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/responsive_row.py',
+   'PYMODULE'),
+  ('flet.core.rive',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/rive.py',
+   'PYMODULE'),
+  ('flet.core.row',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/row.py',
+   'PYMODULE'),
+  ('flet.core.safe_area',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/safe_area.py',
+   'PYMODULE'),
+  ('flet.core.scrollable_control',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/scrollable_control.py',
+   'PYMODULE'),
+  ('flet.core.search_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/search_bar.py',
+   'PYMODULE'),
+  ('flet.core.segmented_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/segmented_button.py',
+   'PYMODULE'),
+  ('flet.core.selection_area',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/selection_area.py',
+   'PYMODULE'),
+  ('flet.core.semantics',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/semantics.py',
+   'PYMODULE'),
+  ('flet.core.semantics_service',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/semantics_service.py',
+   'PYMODULE'),
+  ('flet.core.session_storage',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/session_storage.py',
+   'PYMODULE'),
+  ('flet.core.shader_mask',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/shader_mask.py',
+   'PYMODULE'),
+  ('flet.core.shake_detector',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/shake_detector.py',
+   'PYMODULE'),
+  ('flet.core.size',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/size.py',
+   'PYMODULE'),
+  ('flet.core.slider',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/slider.py',
+   'PYMODULE'),
+  ('flet.core.snack_bar',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/snack_bar.py',
+   'PYMODULE'),
+  ('flet.core.stack',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/stack.py',
+   'PYMODULE'),
+  ('flet.core.submenu_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/submenu_button.py',
+   'PYMODULE'),
+  ('flet.core.switch',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/switch.py',
+   'PYMODULE'),
+  ('flet.core.tabs',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/tabs.py',
+   'PYMODULE'),
+  ('flet.core.template_route',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/template_route.py',
+   'PYMODULE'),
+  ('flet.core.text',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/text.py',
+   'PYMODULE'),
+  ('flet.core.text_button',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/text_button.py',
+   'PYMODULE'),
+  ('flet.core.text_span',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/text_span.py',
+   'PYMODULE'),
+  ('flet.core.text_style',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/text_style.py',
+   'PYMODULE'),
+  ('flet.core.textfield',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/textfield.py',
+   'PYMODULE'),
+  ('flet.core.theme',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/theme.py',
+   'PYMODULE'),
+  ('flet.core.time_picker',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/time_picker.py',
+   'PYMODULE'),
+  ('flet.core.tooltip',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/tooltip.py',
+   'PYMODULE'),
+  ('flet.core.transform',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/transform.py',
+   'PYMODULE'),
+  ('flet.core.transparent_pointer',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/transparent_pointer.py',
+   'PYMODULE'),
+  ('flet.core.types',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/types.py',
+   'PYMODULE'),
+  ('flet.core.vertical_divider',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/vertical_divider.py',
+   'PYMODULE'),
+  ('flet.core.video',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/video.py',
+   'PYMODULE'),
+  ('flet.core.view',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/view.py',
+   'PYMODULE'),
+  ('flet.core.webview',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/webview.py',
+   'PYMODULE'),
+  ('flet.core.window_drag_area',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/core/window_drag_area.py',
+   'PYMODULE'),
+  ('flet.flet_socket_server',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/flet_socket_server.py',
+   'PYMODULE'),
+  ('flet.pyodide_connection',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/pyodide_connection.py',
+   'PYMODULE'),
+  ('flet.utils',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/__init__.py',
+   'PYMODULE'),
+  ('flet.utils.browser',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/browser.py',
+   'PYMODULE'),
+  ('flet.utils.classproperty',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/classproperty.py',
+   'PYMODULE'),
+  ('flet.utils.deprecated',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/deprecated.py',
+   'PYMODULE'),
+  ('flet.utils.files',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/files.py',
+   'PYMODULE'),
+  ('flet.utils.hashing',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/hashing.py',
+   'PYMODULE'),
+  ('flet.utils.network',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/network.py',
+   'PYMODULE'),
+  ('flet.utils.once',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/once.py',
+   'PYMODULE'),
+  ('flet.utils.pip',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/pip.py',
+   'PYMODULE'),
+  ('flet.utils.platform_utils',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/platform_utils.py',
+   'PYMODULE'),
+  ('flet.utils.slugify',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/slugify.py',
+   'PYMODULE'),
+  ('flet.utils.strings',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/strings.py',
+   'PYMODULE'),
+  ('flet.utils.vector',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/utils/vector.py',
+   'PYMODULE'),
+  ('flet.version',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet/version.py',
+   'PYMODULE'),
+  ('flet_desktop',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet_desktop/__init__.py',
+   'PYMODULE'),
+  ('flet_desktop.version',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/flet_desktop/version.py',
+   'PYMODULE'),
+  ('fnmatch', '/usr/lib/python3.13/fnmatch.py', 'PYMODULE'),
+  ('fractions', '/usr/lib/python3.13/fractions.py', 'PYMODULE'),
+  ('ftplib', '/usr/lib/python3.13/ftplib.py', 'PYMODULE'),
+  ('getopt', '/usr/lib/python3.13/getopt.py', 'PYMODULE'),
+  ('getpass', '/usr/lib/python3.13/getpass.py', 'PYMODULE'),
+  ('gettext', '/usr/lib/python3.13/gettext.py', 'PYMODULE'),
+  ('glob', '/usr/lib/python3.13/glob.py', 'PYMODULE'),
+  ('gzip', '/usr/lib/python3.13/gzip.py', 'PYMODULE'),
+  ('h11',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/__init__.py',
+   'PYMODULE'),
+  ('h11._abnf',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_abnf.py',
+   'PYMODULE'),
+  ('h11._connection',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_connection.py',
+   'PYMODULE'),
+  ('h11._events',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_events.py',
+   'PYMODULE'),
+  ('h11._headers',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_headers.py',
+   'PYMODULE'),
+  ('h11._readers',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_readers.py',
+   'PYMODULE'),
+  ('h11._receivebuffer',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_receivebuffer.py',
+   'PYMODULE'),
+  ('h11._state',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_state.py',
+   'PYMODULE'),
+  ('h11._util',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_util.py',
+   'PYMODULE'),
+  ('h11._version',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_version.py',
+   'PYMODULE'),
+  ('h11._writers',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/h11/_writers.py',
+   'PYMODULE'),
+  ('hashlib', '/usr/lib/python3.13/hashlib.py', 'PYMODULE'),
+  ('hmac', '/usr/lib/python3.13/hmac.py', 'PYMODULE'),
+  ('http', '/usr/lib/python3.13/http/__init__.py', 'PYMODULE'),
+  ('http.client', '/usr/lib/python3.13/http/client.py', 'PYMODULE'),
+  ('http.cookiejar', '/usr/lib/python3.13/http/cookiejar.py', 'PYMODULE'),
+  ('httpcore',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/__init__.py',
+   'PYMODULE'),
+  ('httpcore._api',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_api.py',
+   'PYMODULE'),
+  ('httpcore._async',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/__init__.py',
+   'PYMODULE'),
+  ('httpcore._async.connection',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/connection.py',
+   'PYMODULE'),
+  ('httpcore._async.connection_pool',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/connection_pool.py',
+   'PYMODULE'),
+  ('httpcore._async.http11',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/http11.py',
+   'PYMODULE'),
+  ('httpcore._async.http2',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/http2.py',
+   'PYMODULE'),
+  ('httpcore._async.http_proxy',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/http_proxy.py',
+   'PYMODULE'),
+  ('httpcore._async.interfaces',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/interfaces.py',
+   'PYMODULE'),
+  ('httpcore._async.socks_proxy',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_async/socks_proxy.py',
+   'PYMODULE'),
+  ('httpcore._backends',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/__init__.py',
+   'PYMODULE'),
+  ('httpcore._backends.anyio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/anyio.py',
+   'PYMODULE'),
+  ('httpcore._backends.auto',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/auto.py',
+   'PYMODULE'),
+  ('httpcore._backends.base',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/base.py',
+   'PYMODULE'),
+  ('httpcore._backends.mock',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/mock.py',
+   'PYMODULE'),
+  ('httpcore._backends.sync',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/sync.py',
+   'PYMODULE'),
+  ('httpcore._backends.trio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_backends/trio.py',
+   'PYMODULE'),
+  ('httpcore._exceptions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_exceptions.py',
+   'PYMODULE'),
+  ('httpcore._models',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_models.py',
+   'PYMODULE'),
+  ('httpcore._ssl',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_ssl.py',
+   'PYMODULE'),
+  ('httpcore._sync',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/__init__.py',
+   'PYMODULE'),
+  ('httpcore._sync.connection',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/connection.py',
+   'PYMODULE'),
+  ('httpcore._sync.connection_pool',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/connection_pool.py',
+   'PYMODULE'),
+  ('httpcore._sync.http11',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/http11.py',
+   'PYMODULE'),
+  ('httpcore._sync.http2',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/http2.py',
+   'PYMODULE'),
+  ('httpcore._sync.http_proxy',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/http_proxy.py',
+   'PYMODULE'),
+  ('httpcore._sync.interfaces',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/interfaces.py',
+   'PYMODULE'),
+  ('httpcore._sync.socks_proxy',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_sync/socks_proxy.py',
+   'PYMODULE'),
+  ('httpcore._synchronization',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_synchronization.py',
+   'PYMODULE'),
+  ('httpcore._trace',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_trace.py',
+   'PYMODULE'),
+  ('httpcore._utils',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpcore/_utils.py',
+   'PYMODULE'),
+  ('httpx',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/__init__.py',
+   'PYMODULE'),
+  ('httpx.__version__',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/__version__.py',
+   'PYMODULE'),
+  ('httpx._api',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_api.py',
+   'PYMODULE'),
+  ('httpx._auth',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_auth.py',
+   'PYMODULE'),
+  ('httpx._client',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_client.py',
+   'PYMODULE'),
+  ('httpx._config',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_config.py',
+   'PYMODULE'),
+  ('httpx._content',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_content.py',
+   'PYMODULE'),
+  ('httpx._decoders',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_decoders.py',
+   'PYMODULE'),
+  ('httpx._exceptions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_exceptions.py',
+   'PYMODULE'),
+  ('httpx._main',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_main.py',
+   'PYMODULE'),
+  ('httpx._models',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_models.py',
+   'PYMODULE'),
+  ('httpx._multipart',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_multipart.py',
+   'PYMODULE'),
+  ('httpx._status_codes',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_status_codes.py',
+   'PYMODULE'),
+  ('httpx._transports',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_transports/__init__.py',
+   'PYMODULE'),
+  ('httpx._transports.asgi',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_transports/asgi.py',
+   'PYMODULE'),
+  ('httpx._transports.base',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_transports/base.py',
+   'PYMODULE'),
+  ('httpx._transports.default',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_transports/default.py',
+   'PYMODULE'),
+  ('httpx._transports.mock',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_transports/mock.py',
+   'PYMODULE'),
+  ('httpx._transports.wsgi',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_transports/wsgi.py',
+   'PYMODULE'),
+  ('httpx._types',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_types.py',
+   'PYMODULE'),
+  ('httpx._urlparse',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_urlparse.py',
+   'PYMODULE'),
+  ('httpx._urls',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_urls.py',
+   'PYMODULE'),
+  ('httpx._utils',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/httpx/_utils.py',
+   'PYMODULE'),
+  ('idna',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/idna/__init__.py',
+   'PYMODULE'),
+  ('idna.core',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/idna/core.py',
+   'PYMODULE'),
+  ('idna.idnadata',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/idna/idnadata.py',
+   'PYMODULE'),
+  ('idna.intranges',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/idna/intranges.py',
+   'PYMODULE'),
+  ('idna.package_data',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/idna/package_data.py',
+   'PYMODULE'),
+  ('idna.uts46data',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/idna/uts46data.py',
+   'PYMODULE'),
+  ('importlib', '/usr/lib/python3.13/importlib/__init__.py', 'PYMODULE'),
+  ('importlib._abc', '/usr/lib/python3.13/importlib/_abc.py', 'PYMODULE'),
+  ('importlib._bootstrap',
+   '/usr/lib/python3.13/importlib/_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   '/usr/lib/python3.13/importlib/_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc', '/usr/lib/python3.13/importlib/abc.py', 'PYMODULE'),
+  ('importlib.machinery',
+   '/usr/lib/python3.13/importlib/machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   '/usr/lib/python3.13/importlib/metadata/__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   '/usr/lib/python3.13/importlib/metadata/_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   '/usr/lib/python3.13/importlib/metadata/_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   '/usr/lib/python3.13/importlib/metadata/_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   '/usr/lib/python3.13/importlib/metadata/_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   '/usr/lib/python3.13/importlib/metadata/_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   '/usr/lib/python3.13/importlib/metadata/_text.py',
+   'PYMODULE'),
+  ('importlib.readers', '/usr/lib/python3.13/importlib/readers.py', 'PYMODULE'),
+  ('importlib.resources',
+   '/usr/lib/python3.13/importlib/resources/__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   '/usr/lib/python3.13/importlib/resources/_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   '/usr/lib/python3.13/importlib/resources/_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   '/usr/lib/python3.13/importlib/resources/_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   '/usr/lib/python3.13/importlib/resources/_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   '/usr/lib/python3.13/importlib/resources/abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   '/usr/lib/python3.13/importlib/resources/readers.py',
+   'PYMODULE'),
+  ('importlib.util', '/usr/lib/python3.13/importlib/util.py', 'PYMODULE'),
+  ('inspect', '/usr/lib/python3.13/inspect.py', 'PYMODULE'),
+  ('ipaddress', '/usr/lib/python3.13/ipaddress.py', 'PYMODULE'),
+  ('json', '/usr/lib/python3.13/json/__init__.py', 'PYMODULE'),
+  ('json.decoder', '/usr/lib/python3.13/json/decoder.py', 'PYMODULE'),
+  ('json.encoder', '/usr/lib/python3.13/json/encoder.py', 'PYMODULE'),
+  ('json.scanner', '/usr/lib/python3.13/json/scanner.py', 'PYMODULE'),
+  ('load_env',
+   '/home/ivan/Рабочий стол/olimpiads/wunderkind-project/load_env.py',
+   'PYMODULE'),
+  ('logging', '/usr/lib/python3.13/logging/__init__.py', 'PYMODULE'),
+  ('loguru',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/__init__.py',
+   'PYMODULE'),
+  ('loguru._asyncio_loop',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_asyncio_loop.py',
+   'PYMODULE'),
+  ('loguru._better_exceptions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_better_exceptions.py',
+   'PYMODULE'),
+  ('loguru._colorama',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_colorama.py',
+   'PYMODULE'),
+  ('loguru._colorizer',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_colorizer.py',
+   'PYMODULE'),
+  ('loguru._contextvars',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_contextvars.py',
+   'PYMODULE'),
+  ('loguru._ctime_functions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_ctime_functions.py',
+   'PYMODULE'),
+  ('loguru._datetime',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_datetime.py',
+   'PYMODULE'),
+  ('loguru._defaults',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_defaults.py',
+   'PYMODULE'),
+  ('loguru._error_interceptor',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_error_interceptor.py',
+   'PYMODULE'),
+  ('loguru._file_sink',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_file_sink.py',
+   'PYMODULE'),
+  ('loguru._filters',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_filters.py',
+   'PYMODULE'),
+  ('loguru._get_frame',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_get_frame.py',
+   'PYMODULE'),
+  ('loguru._handler',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_handler.py',
+   'PYMODULE'),
+  ('loguru._locks_machinery',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_locks_machinery.py',
+   'PYMODULE'),
+  ('loguru._logger',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_logger.py',
+   'PYMODULE'),
+  ('loguru._recattrs',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_recattrs.py',
+   'PYMODULE'),
+  ('loguru._simple_sinks',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_simple_sinks.py',
+   'PYMODULE'),
+  ('loguru._string_parsers',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/loguru/_string_parsers.py',
+   'PYMODULE'),
+  ('lzma', '/usr/lib/python3.13/lzma.py', 'PYMODULE'),
+  ('mimetypes', '/usr/lib/python3.13/mimetypes.py', 'PYMODULE'),
+  ('multiprocessing',
+   '/usr/lib/python3.13/multiprocessing/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.connection',
+   '/usr/lib/python3.13/multiprocessing/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.context',
+   '/usr/lib/python3.13/multiprocessing/context.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy',
+   '/usr/lib/python3.13/multiprocessing/dummy/__init__.py',
+   'PYMODULE'),
+  ('multiprocessing.dummy.connection',
+   '/usr/lib/python3.13/multiprocessing/dummy/connection.py',
+   'PYMODULE'),
+  ('multiprocessing.forkserver',
+   '/usr/lib/python3.13/multiprocessing/forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.heap',
+   '/usr/lib/python3.13/multiprocessing/heap.py',
+   'PYMODULE'),
+  ('multiprocessing.managers',
+   '/usr/lib/python3.13/multiprocessing/managers.py',
+   'PYMODULE'),
+  ('multiprocessing.pool',
+   '/usr/lib/python3.13/multiprocessing/pool.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_fork',
+   '/usr/lib/python3.13/multiprocessing/popen_fork.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_forkserver',
+   '/usr/lib/python3.13/multiprocessing/popen_forkserver.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_posix',
+   '/usr/lib/python3.13/multiprocessing/popen_spawn_posix.py',
+   'PYMODULE'),
+  ('multiprocessing.popen_spawn_win32',
+   '/usr/lib/python3.13/multiprocessing/popen_spawn_win32.py',
+   'PYMODULE'),
+  ('multiprocessing.process',
+   '/usr/lib/python3.13/multiprocessing/process.py',
+   'PYMODULE'),
+  ('multiprocessing.queues',
+   '/usr/lib/python3.13/multiprocessing/queues.py',
+   'PYMODULE'),
+  ('multiprocessing.reduction',
+   '/usr/lib/python3.13/multiprocessing/reduction.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_sharer',
+   '/usr/lib/python3.13/multiprocessing/resource_sharer.py',
+   'PYMODULE'),
+  ('multiprocessing.resource_tracker',
+   '/usr/lib/python3.13/multiprocessing/resource_tracker.py',
+   'PYMODULE'),
+  ('multiprocessing.shared_memory',
+   '/usr/lib/python3.13/multiprocessing/shared_memory.py',
+   'PYMODULE'),
+  ('multiprocessing.sharedctypes',
+   '/usr/lib/python3.13/multiprocessing/sharedctypes.py',
+   'PYMODULE'),
+  ('multiprocessing.spawn',
+   '/usr/lib/python3.13/multiprocessing/spawn.py',
+   'PYMODULE'),
+  ('multiprocessing.synchronize',
+   '/usr/lib/python3.13/multiprocessing/synchronize.py',
+   'PYMODULE'),
+  ('multiprocessing.util',
+   '/usr/lib/python3.13/multiprocessing/util.py',
+   'PYMODULE'),
+  ('netrc', '/usr/lib/python3.13/netrc.py', 'PYMODULE'),
+  ('nturl2path', '/usr/lib/python3.13/nturl2path.py', 'PYMODULE'),
+  ('numbers', '/usr/lib/python3.13/numbers.py', 'PYMODULE'),
+  ('oauthlib',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.common',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/common.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients.backend_application',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/backend_application.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients.base',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/base.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients.legacy_application',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/legacy_application.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients.mobile_application',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/mobile_application.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients.service_application',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/service_application.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.clients.web_application',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/clients/web_application.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.authorization',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/authorization.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.base',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/base.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.introspect',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/introspect.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.metadata',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/metadata.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.pre_configured',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/pre_configured.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.resource',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/resource.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.revocation',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/revocation.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.endpoints.token',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/endpoints/token.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.errors',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/errors.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types.authorization_code',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/authorization_code.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types.base',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/base.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types.client_credentials',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/client_credentials.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types.implicit',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/implicit.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types.refresh_token',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/refresh_token.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.grant_types.resource_owner_password_credentials',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/grant_types/resource_owner_password_credentials.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.parameters',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/parameters.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.request_validator',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/request_validator.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.tokens',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/tokens.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc6749.utils',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc6749/utils.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc8628',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc8628.clients',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/clients/__init__.py',
+   'PYMODULE'),
+  ('oauthlib.oauth2.rfc8628.clients.device',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/oauth2/rfc8628/clients/device.py',
+   'PYMODULE'),
+  ('oauthlib.signals',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/signals.py',
+   'PYMODULE'),
+  ('oauthlib.uri_validate',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/oauthlib/uri_validate.py',
+   'PYMODULE'),
+  ('opcode', '/usr/lib/python3.13/opcode.py', 'PYMODULE'),
+  ('pages', '-', 'PYMODULE'),
+  ('pages.kit',
+   '/home/ivan/Рабочий стол/olimpiads/wunderkind-project/pages/kit.py',
+   'PYMODULE'),
+  ('pages.nav_bar',
+   '/home/ivan/Рабочий стол/olimpiads/wunderkind-project/pages/nav_bar.py',
+   'PYMODULE'),
+  ('pages.payment',
+   '/home/ivan/Рабочий стол/olimpiads/wunderkind-project/pages/payment.py',
+   'PYMODULE'),
+  ('pages.schedule',
+   '/home/ivan/Рабочий стол/olimpiads/wunderkind-project/pages/schedule.py',
+   'PYMODULE'),
+  ('pathlib', '/usr/lib/python3.13/pathlib/__init__.py', 'PYMODULE'),
+  ('pathlib._abc', '/usr/lib/python3.13/pathlib/_abc.py', 'PYMODULE'),
+  ('pathlib._local', '/usr/lib/python3.13/pathlib/_local.py', 'PYMODULE'),
+  ('pickle', '/usr/lib/python3.13/pickle.py', 'PYMODULE'),
+  ('pkgutil', '/usr/lib/python3.13/pkgutil.py', 'PYMODULE'),
+  ('platform', '/usr/lib/python3.13/platform.py', 'PYMODULE'),
+  ('pprint', '/usr/lib/python3.13/pprint.py', 'PYMODULE'),
+  ('py_compile', '/usr/lib/python3.13/py_compile.py', 'PYMODULE'),
+  ('queue', '/usr/lib/python3.13/queue.py', 'PYMODULE'),
+  ('quopri', '/usr/lib/python3.13/quopri.py', 'PYMODULE'),
+  ('random', '/usr/lib/python3.13/random.py', 'PYMODULE'),
+  ('repath',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/repath.py',
+   'PYMODULE'),
+  ('runpy', '/usr/lib/python3.13/runpy.py', 'PYMODULE'),
+  ('secrets', '/usr/lib/python3.13/secrets.py', 'PYMODULE'),
+  ('selectors', '/usr/lib/python3.13/selectors.py', 'PYMODULE'),
+  ('shlex', '/usr/lib/python3.13/shlex.py', 'PYMODULE'),
+  ('shutil', '/usr/lib/python3.13/shutil.py', 'PYMODULE'),
+  ('signal', '/usr/lib/python3.13/signal.py', 'PYMODULE'),
+  ('six',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/six.py',
+   'PYMODULE'),
+  ('sniffio',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/sniffio/__init__.py',
+   'PYMODULE'),
+  ('sniffio._impl',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/sniffio/_impl.py',
+   'PYMODULE'),
+  ('sniffio._version',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/sniffio/_version.py',
+   'PYMODULE'),
+  ('socket', '/usr/lib/python3.13/socket.py', 'PYMODULE'),
+  ('ssl', '/usr/lib/python3.13/ssl.py', 'PYMODULE'),
+  ('statistics', '/usr/lib/python3.13/statistics.py', 'PYMODULE'),
+  ('string', '/usr/lib/python3.13/string.py', 'PYMODULE'),
+  ('stringprep', '/usr/lib/python3.13/stringprep.py', 'PYMODULE'),
+  ('subprocess', '/usr/lib/python3.13/subprocess.py', 'PYMODULE'),
+  ('sysconfig', '/usr/lib/python3.13/sysconfig/__init__.py', 'PYMODULE'),
+  ('tarfile', '/usr/lib/python3.13/tarfile.py', 'PYMODULE'),
+  ('tempfile', '/usr/lib/python3.13/tempfile.py', 'PYMODULE'),
+  ('textwrap', '/usr/lib/python3.13/textwrap.py', 'PYMODULE'),
+  ('threading', '/usr/lib/python3.13/threading.py', 'PYMODULE'),
+  ('token', '/usr/lib/python3.13/token.py', 'PYMODULE'),
+  ('tokenize', '/usr/lib/python3.13/tokenize.py', 'PYMODULE'),
+  ('tracemalloc', '/usr/lib/python3.13/tracemalloc.py', 'PYMODULE'),
+  ('typing', '/usr/lib/python3.13/typing.py', 'PYMODULE'),
+  ('typing_extensions',
+   '/home/ivan/Рабочий '
+   'стол/olimpiads/wunderkind-project/venv/lib/python3.13/site-packages/setuptools/_vendor/typing_extensions.py',
+   'PYMODULE'),
+  ('urllib', '/usr/lib/python3.13/urllib/__init__.py', 'PYMODULE'),
+  ('urllib.error', '/usr/lib/python3.13/urllib/error.py', 'PYMODULE'),
+  ('urllib.parse', '/usr/lib/python3.13/urllib/parse.py', 'PYMODULE'),
+  ('urllib.request', '/usr/lib/python3.13/urllib/request.py', 'PYMODULE'),
+  ('urllib.response', '/usr/lib/python3.13/urllib/response.py', 'PYMODULE'),
+  ('utils', '-', 'PYMODULE'),
+  ('utils.db',
+   '/home/ivan/Рабочий стол/olimpiads/wunderkind-project/utils/db.py',
+   'PYMODULE'),
+  ('uuid', '/usr/lib/python3.13/uuid.py', 'PYMODULE'),
+  ('webbrowser', '/usr/lib/python3.13/webbrowser.py', 'PYMODULE'),
+  ('xml', '/usr/lib/python3.13/xml/__init__.py', 'PYMODULE'),
+  ('xml.parsers', '/usr/lib/python3.13/xml/parsers/__init__.py', 'PYMODULE'),
+  ('xml.parsers.expat', '/usr/lib/python3.13/xml/parsers/expat.py', 'PYMODULE'),
+  ('xml.sax', '/usr/lib/python3.13/xml/sax/__init__.py', 'PYMODULE'),
+  ('xml.sax._exceptions',
+   '/usr/lib/python3.13/xml/sax/_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   '/usr/lib/python3.13/xml/sax/expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler', '/usr/lib/python3.13/xml/sax/handler.py', 'PYMODULE'),
+  ('xml.sax.saxutils', '/usr/lib/python3.13/xml/sax/saxutils.py', 'PYMODULE'),
+  ('xml.sax.xmlreader', '/usr/lib/python3.13/xml/sax/xmlreader.py', 'PYMODULE'),
+  ('xmlrpc', '/usr/lib/python3.13/xmlrpc/__init__.py', 'PYMODULE'),
+  ('xmlrpc.client', '/usr/lib/python3.13/xmlrpc/client.py', 'PYMODULE'),
+  ('zipfile', '/usr/lib/python3.13/zipfile/__init__.py', 'PYMODULE'),
+  ('zipfile._path',
+   '/usr/lib/python3.13/zipfile/_path/__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   '/usr/lib/python3.13/zipfile/_path/glob.py',
+   'PYMODULE'),
+  ('zipimport', '/usr/lib/python3.13/zipimport.py', 'PYMODULE')])
