@@ -15,3 +15,9 @@ TEACHERS_DB_FILE_NAME = getenv("TEACHERS_DB_FILE_NAME")
 
 # Получаем название базы данных учеников (пользователей)
 STUDENTS_DB_FILE_NAME = getenv("STUDENTS_DB_FILE_NAME")
+
+# Получаем название базы данных платежей (инфорамции о их размере)
+PAYMENTS_DB_FILE_NAME = getenv("PAYMENTS_DB_FILE_NAME")
+
+# Получаем название базы данных отчётов
+REPORTS_DB_FILE_NAME = getenv("REPORTS_DB_FILE_NAME")

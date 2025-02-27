@@ -7,6 +7,7 @@ import flet as ft
 SCHEDULE_PAGE_INDEX = 0 # Расписание
 KIT_PAGE_INDEX = 1 # Набор
 PAYMENT_PAGE_INDEX = 2 # Оплата
+REPORT_PAGE_INDEX = 3 # Отчёты
 
 
 def nav_bar(page: ft.Page, index: int | None = 0) -> ft.NavigationBar:
@@ -27,6 +28,11 @@ def nav_bar(page: ft.Page, index: int | None = 0) -> ft.NavigationBar:
             ),
             ft.NavigationBarDestination(
                 label="Оплата",
+                icon=ft.Icons.MONEY,
+                selected_icon=ft.Icons.MONEY_OUTLINED,
+            ),
+            ft.NavigationBarDestination(
+                label="Отчёты",
                 icon=ft.Icons.DOCUMENT_SCANNER_ROUNDED,
                 selected_icon=ft.Icons.DOCUMENT_SCANNER_OUTLINED,
             ),
@@ -38,7 +44,9 @@ def nav_bar_on_change(e: ft.core.control_event.ControlEvent, page: ft.Page) -> N
     """Запускается при изменении навигационного меню."""
     from pages.kit import kit_page
     from pages.payment import payment_page
+    from pages.reports import report_page
     from pages.schedule import schedule_page
+
 
     # Определяем какая страница выбрана
     num = int(e.data)
@@ -60,3 +68,7 @@ def nav_bar_on_change(e: ft.core.control_event.ControlEvent, page: ft.Page) -> N
     # Оплата
     elif num == PAYMENT_PAGE_INDEX:
         page.add(payment_page(page))
+
+    # Отчёты
+    elif num == REPORT_PAGE_INDEX:
+        page.add(report_page(page))

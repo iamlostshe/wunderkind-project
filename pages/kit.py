@@ -268,9 +268,7 @@ def kit_page(page: ft.Page) -> ft.SafeArea:
             cells = [ft.DataCell(ft.Text(c + 1))]
 
             # Проходимся по всем клеткам строки
-            for i in row:
-                # Добавляем новую клетку
-                cells.append(ft.DataCell(ft.Text(row[i])))
+            cells += [ft.DataCell(ft.Text(row[i])) for i in row]
 
             # Добавляем строку
             rows.append(ft.DataRow(cells))

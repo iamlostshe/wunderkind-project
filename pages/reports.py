@@ -9,63 +9,31 @@ from pages.nav_bar import nav_bar
 from utils import db
 
 
-def edit_payment_page(page: ft.Page) -> None:
+def edit_report_page(page: ft.Page) -> None:
     """Страница добавления новых пазлов."""
-    # Инициализируем словарь для хранения информации о учащихся
-    data = {}
+    # Инициализируем словарь для хранения информации о отчётах
+    data = {
+        "type": None,
+    }
 
-    def choice_of_course_on_click(e: ft.core.control_event.ControlEvent) -> None:
-        """Выбор кружка."""
+    def choice_of_report_on_click(e: ft.core.control_event.ControlEvent) -> None:
+        """Выбор вида отчёта."""
         # Получаем текст из поля
         text = e.control.value
 
         # Выводим лог
-        logger.debug("Возрастной интервал: {}", text)
+        logger.debug("Вид отчёта: {}", text)
 
         # Запишем изменения в data
-        data["course"] = text
+        data["type"] = text
 
-    # Получаем данные о кружках из базы данных
-    c = db.Courses()
-    result = [ft.dropdown.Option(i["name"]) for i in c.get()]
-
-    if not result:
-        result = [
-            ft.dropdown.Option(
-                "Сначала необходимо создать кружок в разделе расписание.",
-            ),
-        ]
-
-    # Выбор кружка из выпадающего списка
-    choice_of_course = ft.Dropdown(
-        label="Выбор кружка",
+    # Выбор отчёта из выпадающего списка
+    choice_of_report = ft.Dropdown(
+        label="Выбор отчёта",
         width=page.width,
-        on_change=choice_of_course_on_click,
-        options=result,
+        on_change=choice_of_report_on_click,
+        options=[ft.dropdown.Option(i) for i in db.Reports().get_reports_names()],
     )
-
-    def price_on_blur(e: ft.core.control_event.ControlEvent) -> None:
-        """Цена кружка."""
-        # Убирем все ошибки
-        e.control.error_text = None
-        page.update()
-
-        # Получаем текст из поля
-        text = e.control.value
-
-        # Выводим лог
-        logger.debug("Цена кружка: {}", text)
-
-        # Проверяем заполнено ли поле
-        if text not in ["", None]:
-            if text.isnumeric():
-                data["price"] = float(text)
-            else:
-                e.control.error_text = "Ввод должен быть числом"
-                page.update()
-        else:
-            e.control.error_text = "Это поле не должно быть пустым"
-            page.update()
 
     def back(page: ft.Page) -> None:
         """Кнопка "Назад"."""
@@ -73,27 +41,33 @@ def edit_payment_page(page: ft.Page) -> None:
         page.clean()
 
         # Добавляем навигационное меню
-        page.add(nav_bar(page, 2))
+        page.add(nav_bar(page, 3))
 
         # Открываем страницу расписания
-        page.add(payment_page(page))
+        page.add(report_page(page))
 
     def submit_form(e: ft.core.control_event.ControlEvent, page: ft.Page) -> None:  # noqa: ARG001
         """Сохраняет результат формы."""
+        # Получаем непустые строки
+        len_data = 0
+
+        for i in data.values():
+            if i not in ["", None]:
+                len_data += 1
+
         # Если информации достаточно
-        if len(data) == 2:  # noqa: PLR2004
+        if len_data == 1:
             # Записываем её в JSON бд
-            p = db.Payments()
-            p.add(data)
+            db.Reports().add(data)
 
             # Очищаем страницу
             page.clean()
 
             # Переходим на главную
-            page.add(payment_page(page))
+            page.add(report_page(page))
 
             # Добавляем навигационное меню
-            page.add(nav_bar(page, 2))
+            page.add(nav_bar(page, 3))
 
         else:
             # В ином случае выводим предупреждение
@@ -122,18 +96,14 @@ def edit_payment_page(page: ft.Page) -> None:
                     icon=ft.Icons.ARROW_BACK_IOS_NEW,
                     on_click=lambda e: back(page),  # noqa: ARG005
                 ),
-                choice_of_course,
-                ft.TextField(
-                    label="Цена занятия",
-                    on_blur=price_on_blur,
-                ),
+                choice_of_report,
                 ft.Row(controls=[submit], alignment=ft.MainAxisAlignment.CENTER),
             ],
         ),
     )
 
 
-def payment_page(page: ft.Page) -> ft.SafeArea:
+def report_page(page: ft.Page) -> ft.SafeArea:
     """Главное меню."""
     def plus_button_on_click(
         e: ft.core.control_event.ControlEvent,  # noqa: ARG001
@@ -144,10 +114,10 @@ def payment_page(page: ft.Page) -> ft.SafeArea:
         page.clean()
 
         # Добавляем навигационное меню
-        page.add(nav_bar(page, 2))
+        page.add(nav_bar(page, 3))
 
         # Добавляем страницу создания пазлов
-        page.add(edit_payment_page(page))
+        page.add(edit_report_page(page))
 
     # Кнопка добавления нового кружка
     plus_button = ft.FloatingActionButton(
@@ -161,7 +131,7 @@ def payment_page(page: ft.Page) -> ft.SafeArea:
         if not items:
             return ft.Row(
                 controls=[
-                    ft.Text("Пока не записано ни одного платежа."),
+                    ft.Text("Вы пока не создали ни одного отчёта."),
                 ],
             )
 
@@ -169,11 +139,9 @@ def payment_page(page: ft.Page) -> ft.SafeArea:
         columns = [
             ft.DataColumn(ft.Text(column_name)) for column_name in (
                 "№",
-                "Кружок",
-                "Разовое занятие",
-                "Абонемент на месяц",
-                "Абонемент на год",
+                "Тип",
                 "Время",
+                "Название файла",
             )
         ]
 
@@ -195,8 +163,7 @@ def payment_page(page: ft.Page) -> ft.SafeArea:
         return ft.DataTable(width=page.width, columns=columns, rows=rows)
 
     # Получаем информацию из бд
-    p = db.Payments()
-    table = get_table(p.get())
+    table = get_table(db.Reports().get())
 
     # Возвращаем страницу
     return ft.SafeArea(
@@ -205,7 +172,7 @@ def payment_page(page: ft.Page) -> ft.SafeArea:
                 ft.Row(
                     controls=[
                         ft.TextField(
-                            label="TODO: Поиск по платежам",
+                            label="TODO: Поиск по отчётам",
                             expand=True,
                             # TODO(@iamlostshe): on_blur=lambda e: search_puzzles(e, page),
                         ),
